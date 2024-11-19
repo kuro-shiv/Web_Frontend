@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background:url(https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/1610911455028-UFLLTWNBO86V05D8NFRX/20.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    
+    background-color: #000;
+    color:#fff;
+    opacity: 0.7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(10, 2, 2, 0.1);
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9fdb9f;
+}
+
+.error-message {
+    color: rgb(179, 59, 59);
+    margin-top: 10px;
+}
+
+
