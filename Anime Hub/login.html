@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/login.css">
+    <script src="JS/login.js"></script>
+    <title>Login Page</title>
+</head>
+
+<body> 
+
+    
+    <div class="login-container">
+        <h2>AnimeHub</h2>
+        <h4>Login Here:</h4>
+        <form  action="home.html" >
+            <label for="username"></label>
+            <input type="text" id="username" name="username" placeholder="Enter Username">
+
+            <label for="password"></label>
+            <input type="password" id="password" name="password" placeholder="Enter password">
+
+            <button type="button" onclick="validateLogin()">Login</button>
+        </form><br>
+        <p id="errorMessage" class="error-message"></p>
+        <div class="icons">
+            <a href="https://www.facebook.com/"><img src="Img/downloadfb.png" width="30px" height="30px"></a>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.instagram.com/" ><img src="Img/downloadinsta.png" width="30px" height="30px"></a>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.twitter.com/"><img src="Img/downloadx.png" width="30px" height="30px"></a>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.google.com/"><img src="Img/downloadgoogle.png" width="30px" height="30px"></a>
+            
+        </div>
+    </div>
+
+</body>
+</html>
