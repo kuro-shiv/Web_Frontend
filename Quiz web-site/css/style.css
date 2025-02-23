@@ -1,0 +1,138 @@
+                /* Add your CSS styles here */
+                *body {
+                    font-family: Arial, sans-serif;
+                    text-align: center;
+                    background-color: #f2f2f2;
+                }
+        
+               
+        
+                h1 {
+                    margin: 15px;
+                }
+        
+               
+        
+                .welcome {
+                    font-size: 30px;
+                    margin: 0px;
+                    text-align: center;    
+                }
+
+                .welcome:hover{
+                    color: white;
+                    background: #333;
+                    transition: 1s;
+                    
+                }
+
+                .link-button {
+                    display: inline-block;
+                    margin: 10px;
+                    padding: 10px 20px;
+                    color: #fff;
+                    text-decoration: none;
+                    border-radius: 5px;
+                    font-weight: bold;
+                }
+        
+                /* CSS for taskbar */
+                .taskbar {
+                    background-color: #333;
+                    overflow: hidden;
+                }
+        
+                .taskbar a {
+                    float: left;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                    font-size: 18px;
+                }
+        
+                .taskbar a:hover {
+                    background-color: #ddd;
+                    color: black;
+                    transform: scale(1.1);
+                    transition: 0.2s;
+                
+                }
+        
+                /* CSS for content */
+                .content {
+                    padding: 20px;
+                    font-size: 24px;
+                }
+
+
+                .box-container {
+                    position: relative;
+                    width: 150px;
+                    height: 150px;
+                    background: #8d73c2; /* Green background color */
+                    border-radius: 50%; /* Creates curved edges */
+                    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+                    margin: 50px 60px;
+                    text-align: center;
+                    
+                }
+
+                .icon {
+                    font-size: 40px;
+                    color: rgb(0, 0, 0);
+                    margin-top: 25px;
+                    padding: 8px;
+                }
+
+                a {
+                    text-decoration: none;
+                }
+                
+                .heading {
+                    font-size: 20px;
+                    color: white;
+                    margin: 40px 0;
+                }
+                .doit{
+                    padding: 200px;
+                    display: flex;
+                    background-image: url('p2.jpg');
+                    background-size: cover;
+                    opacity: 0.8;
+                    
+                }
+
+                .logout{
+                    margin-left: 1150px;
+                    background-color: #3498db;
+                }
+
+                
+                    .quiz-question {
+                         margin: 20px;
+                         padding: 10px;
+                         border: 1px solid #ddd;
+                         background-color: #f9f9f9;
+                    }
+
+                    .button-button {
+                        display: inline-block;
+                        padding: 10px 20px;
+                        background-color: #3498db;
+                        color: #fff;
+                        border: none;
+                        border-radius: 5px;
+                        font-size: 18px;
+                        cursor: pointer;
+                        transition: background-color 0.3s ease;
+                      }
+
+                      .submit-button{
+                        margin-left: 600px;
+                        height: 30px;
+                        width: 70px;
+                        background-color: aquamarine;
+                        border: none;
+                        border-radius: 200px;
+                      }
