@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Result</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background: url("download (5).jpg");
+            background-size: 14000px 800px;
+        }
+
+
+        .taskbar {
+            background-color: #1bb997;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .taskbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .result-container {
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+            order: 1;
+            max-width: 900px;
+        
+        
+        }
+
+        .result-container h2 {
+            color: #1c6a9e;
+        }
+
+        #result-text {
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <!-- Taskbar -->
+    <div class="taskbar">
+        <a href="index.html">Coders' Challenge</a>
+        <a href="index.html">Home</a>
+        <a href="result.html">Result</a>
+        <a href="https://www.google.com" target="_blank">Search</a>
+    </div>
+
+    <div class="result-container">
+        <h2>Quiz Result</h2>
+        <p id="result-text">Your score will be displayed here.</p>
+    </div>
+
+    <script>
+        // Get the score from the URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const score = urlParams.get('score');
+
+        // Display the score on the result page
+        const resultText = document.getElementById('result-text');
+        if (score !== null) {
+            resultText.textContent = `Your score is: ${score}`;
+        } else {
+            resultText.textContent = 'Unable to retrieve the score.';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/login.js"></script>
+    <title>Login Page</title>
+</head>
+
+<body> 
+
+    
+    <div class="login-container">
+        <h2>Quiz WEB-SITE</h2>
+        <h4>Login Here:</h4>
+        <form  action="home.html" >
+            <label for="username"></label>
+            <input type="text" id="username" name="username" placeholder="Enter Username">
+
+            <label for="password"></label>
+            <input type="password" id="password" name="password" placeholder="Enter password">
+
+            <button type="button" onclick="validateLogin()">Login</button>
+        </form><br>
+        <p id="errorMessage" class="error-message"></p>
+        
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ Quiz (Hard Mode)</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+    <!-- Taskbar -->
+    <div class="taskbar">
+        <a href="index.html">Coders' Challenge</a>
+        <a href="index.html">Home</a>
+        <a href="result.html">Result</a>
+        <a href="https://www.google.com" target="_blank">Search</a>
+    </div>
+
+    <form id="quiz-form">
+        <!-- Question 1 -->
+        <div class="quiz-question">
+            <p>1. What is a lambda function in C++?</p>
+            <label for="q1a">A) A function declared with the keyword `lambda`</label>
+            <input type="radio" name="q1" id="q1a" value="A"><br>
+            <label for="q1b">B) An anonymous function defined using the lambda expression</label>
+            <input type="radio" name="q1" id="q1b" value="B"><br>
+            <label for="q1c">C) A function with a variable named `lambda`</label>
+            <input type="radio" name="q1" id="q1c" value="C"><br>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="quiz-question">
+            <p>2. What is the purpose of the `std::move` function in C++?</p>
+            <label for="q2a">A) It moves the contents of one container to another</label>
+            <input type="radio" name="q2" id="q2a" value="A"><br>
+            <label for="q2b">B) It transfers ownership of a resource to another object</label>
+            <input type="radio" name="q2" id="q2b" value="B"><br>
+            <label for="q2c">C) It moves the cursor position in a file</label>
+            <input type="radio" name="q2" id="q2c" value="C"><br>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="quiz-question">
+            <p>3. What is RAII (Resource Acquisition Is Initialization) in C++?</p>
+            <label for="q3a">A) A programming paradigm in C++</label>
+            <input type="radio" name="q3" id="q3a" value="A"><br>
+            <label for="q3b">B) A way to manage resources by tying their lifetime to the scope of an object</label>
+            <input type="radio" name="q3" id="q3b" value="B"><br>
+            <label for="q3c">C) A library for handling input and output operations</label>
+            <input type="radio" name="q3" id="q3c" value="C"><br>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="quiz-question">
+            <p>4. What is the purpose of the `const_cast` operator in C++?</p>
+            <label for="q4a">A) It casts away the constness of an object</label>
+            <input type="radio" name="q4" id="q4a" value="A"><br>
+            <label for="q4b">B) It converts a variable to a constant</label>
+            <input type="radio" name="q4" id="q4b" value="B"><br>
+            <label for="q4c">C) It concatenates two strings</label>
+            <input type="radio" name="q4" id="q4c" value="C"><br>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="quiz-question">
+            <p>5. What is the purpose of the `typeid` operator in C++?</p>
+            <label for="q5a">A) To obtain the type of a variable</label>
+            <input type="radio" name="q5" id="q5a" value="A"><br>
+            <label for="q5b">B) To perform type casting</label>
+            <input type="radio" name="q5" id="q5b" value="B"><br>
+            <label for="q5c">C) To declare a new type</label>
+            <input type="radio" name="q5" id="q5c" value="C"><br>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="quiz-question">
+            <p>6. What is the purpose of the `volatile` keyword in C++?</p>
+            <label for="q6a">A) To indicate that a variable's value may be changed by external factors</label>
+            <input type="radio" name="q6" id="q6a" value="A"><br>
+            <label for="q6b">B) To declare a variable as constant</label>
+            <input type="radio" name="q6" id="q6b" value="B"><br>
+            <label for="q6c">C) To optimize the compilation process</label>
+            <input type="radio" name="q6" id="q6c" value="C"><br>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="quiz-question">
+            <p>7. What is the purpose of the `template` keyword in C++?</p>
+            <label for="q7a">A) To create a new class</label>
+            <input type="radio" name="q7" id="q7a" value="A"><br>
+            <label for="q7b">B) To define a new function</label>
+            <input type="radio" name="q7" id="q7b" value="B"><br>
+            <label for="q7c">C) To create a generic class or function</label>
+            <input type="radio" name="q7" id="q7c" value="C"><br>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="quiz-question">
+            <p>8. What is the purpose of the `std::thread` class in C++?</p>
+            <label for="q8a">A) To perform file I/O operations</label>
+            <input type="radio" name="q8" id="q8a" value="A"><br>
+            <label for="q8b">B) To manage threads and concurrent execution</label>
+            <input type="radio" name="q8" id="q8b" value="B"><br>
+            <label for="q8c">C) To implement dynamic memory allocation</label>
+            <input type="radio" name="q8" id="q8c" value="C"><br>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="quiz-question">
+            <p>9. What is the correct way to implement operator overloading in C++?</p>
+            <label for="q9a">A) Using the `overload` keyword</label>
+            <input type="radio" name="q9" id="q9a" value="A"><br>
+            <label for="q9b">B) By defining a new function with the same name as the operator</label>
+            <input type="radio" name="q9" id="q9b" value="B"><br>
+            <label for="q9c">C) By using the `operator` keyword followed by the operator symbol</label>
+            <input type="radio" name="q9" id="q9c" value="C"><br>
+        </div>
+
+        <!-- Question 10 -->
+        <div class="quiz-question">
+            <p>10. What is the purpose of the `virtual` keyword in C++?</p>
+            <label for="q10a">A) To create a virtual machine</label>
+            <input type="radio" name="q10" id="q10a" value="A"><br>
+            <label for="q10b">B) To declare a variable as virtual</label>
+            <input type="radio" name="q10" id="q10b" value="B"><br>
+            <label for="q10c">C) To enable polymorphism and dynamic binding</label>
+            <input type="radio" name="q10" id="q10c" value="C"><br>
+        </div>
+
+        <button type="button" class="submit-button" onclick="calculateScore()">Submit</button>
+    </form>
+
+    <script>
+        function calculateScore() {
+            let score = 0;
+
+            // Iterate through each question and check the selected answer
+            for (let i = 1; i <= 10; i++) {
+                const selectedOption = document.querySelector(`input[name="q${i}"]:checked`);
+
+                // Check if an option is selected for each question
+                if (selectedOption) {
+                    const selectedValue = selectedOption.value;
+
+                    // Increment score based on correct answers
+                    if (i === 1 && selectedValue === "B") {
+                        score++;
+                    } else if (i === 2 && selectedValue === "B") {
+                        score++;
+                    } else if (i === 3 && selectedValue === "B") {
+                        score++;
+                    } else if (i === 4 && selectedValue === "A") {
+                        score++;
+                    } else if (i === 5 && selectedValue === "A") {
+                        score++;
+                    } else if (i === 6 && selectedValue === "A") {
+                        score++;
+                    } else if (i === 7 && selectedValue === "C") {
+                        score++;
+                    } else if (i === 8 && selectedValue === "B") {
+                        score++;
+                    } else if (i === 9 && selectedValue === "C") {
+                        score++;
+                    } else if (i === 10 && selectedValue === "C") {
+                        score++;
+                    }
+                }
+            }
+
+            // Redirect to the result page with the score
+            window.location.href = `result.html?score=${score}`;
+        }
+    </script>
+</body>
+</html>

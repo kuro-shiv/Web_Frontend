@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Quiz (Hard Mode)</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- Taskbar -->
+    <div class="taskbar">
+        <a href="index.html">Coders' Challenge</a>
+        <a href="index.html">Home</a>
+        <a href="result.html">Result</a>
+        <a href="https://www.google.com" target="_blank">Search</a>
+    </div>
+
+    <form id="quiz-form">
+        <!-- Question 1 -->
+        <div class="quiz-question">
+            <p>1. What is the Global Interpreter Lock (GIL) in Python and how does it impact multithreading?</p>
+            <label for="q1a">A) It prevents deadlocks in multithreading</label>
+            <input type="radio" name="q1" id="q1a" value="A"><br>
+            <label for="q1b">B) It allows multiple threads to execute simultaneously</label>
+            <input type="radio" name="q1" id="q1b" value="B"><br>
+            <label for="q1c">C) It restricts the execution of only one thread at a time</label>
+            <input type="radio" name="q1" id="q1c" value="C"><br>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="quiz-question">
+            <p>2. What is the purpose of the `__slots__` attribute in Python classes?</p>
+            <label for="q2a">A) To define private variables</label>
+            <input type="radio" name="q2" id="q2a" value="A"><br>
+            <label for="q2b">B) To restrict the creation of new attributes</label>
+            <input type="radio" name="q2" id="q2b" value="B"><br>
+            <label for="q2c">C) To define a static method</label>
+            <input type="radio" name="q2" id="q2c" value="C"><br>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="quiz-question">
+            <p>3. Explain the use of the `async` and `await` keywords in Python.</p>
+            <label for="q3a">A) To define asynchronous functions and await their execution</label>
+            <input type="radio" name="q3" id="q3a" value="A"><br>
+            <label for="q3b">B) To handle exceptions in asynchronous code</label>
+            <input type="radio" name="q3" id="q3b" value="B"><br>
+            <label for="q3c">C) To define decorator functions</label>
+            <input type="radio" name="q3" id="q3c" value="C"><br>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="quiz-question">
+            <p>4. What is the purpose of the `@property` decorator in Python?</p>
+            <label for="q4a">A) To create a read-only property for a class</label>
+            <input type="radio" name="q4" id="q4a" value="A"><br>
+            <label for="q4b">B) To define a static method</label>
+            <input type="radio" name="q4" id="q4b" value="B"><br>
+            <label for="q4c">C) To create a write-only property for a class</label>
+            <input type="radio" name="q4" id="q4c" value="C"><br>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="quiz-question">
+            <p>5. Explain the purpose and use cases of metaclasses in Python.</p>
+            <label for="q5a">A) To define abstract base classes</label>
+            <input type="radio" name="q5" id="q5a" value="A"><br>
+            <label for="q5b">B) To customize class creation</label>
+            <input type="radio" name="q5" id="q5b" value="B"><br>
+            <label for="q5c">C) To handle exceptions in class methods</label>
+            <input type="radio" name="q5" id="q5c" value="C"><br>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="quiz-question">
+            <p>6. What is the purpose of the `__call__` method in Python?</p>
+            <label for="q6a">A) To call a function</label>
+            <input type="radio" name="q6" id="q6a" value="A"><br>
+            <label for="q6b">B) To create an instance of a class</label>
+            <input type="radio" name="q6" id="q6b" value="B"><br>
+            <label for="q6c">C) To make an object callable like a function</label>
+            <input type="radio" name="q6" id="q6c" value="C"><br>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="quiz-question">
+            <p>7. How does garbage collection work in Python?</p>
+            <label for="q7a">A) It manually deallocates memory</label>
+            <input type="radio" name="q7" id="q7a" value="A"><br>
+            <label for="q7b">B) It automatically detects and frees unused memory</label>
+            <input type="radio" name="q7" id="q7b" value="B"><br>
+            <label for="q7c">C) It only works for specific data types</label>
+            <input type="radio" name="q7" id="q7c" value="C"><br>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="quiz-question">
+            <p>8. Explain the purpose of the `functools` module in Python.</p>
+            <label for="q8a">A) To manipulate functions and decorators</label>
+            <input type="radio" name="q8" id="q8a" value="A"><br>
+            <label for="q8b">B) To perform mathematical operations</label>
+            <input type="radio" name="q8" id="q8b" value="B"><br>
+            <label for="q8c">C) To work with file I/O operations</label>
+            <input type="radio" name="q8" id="q8c" value="C"><br>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="quiz-question">
+            <p>9. What is the purpose of the `__str__` method in Python?</p>
+            <label for="q9a">A) To convert an object to a string representation</label>
+            <input type="radio" name="q9" id="q9a" value="A"><br>
+            <label for="q9b">B) To compare two strings</label>
+            <input type="radio" name="q9" id="q9b" value="B"><br>
+            <label for="q9c">C) To reverse a string</label>
+            <input type="radio" name="q9" id="q9c" value="C"><br>
+        </div>
+
+        <!-- Question 10 -->
+        <div class="quiz-question">
+            <p>10. Explain the purpose of the `__init_subclass__` method in Python.</p>
+            <label for="q10a">A) To initialize a subclass</label>
+            <input type="radio" name="q10" id="q10a" value="A"><br>
+            <label for="q10b">B) To check if a class is a subclass of another class</label>
+            <input type="radio" name="q10" id="q10b" value="B"><br>
+            <label for="q10c">C) To define a class method</label>
+            <input type="radio" name="q10" id="q10c" value="C"><br>
+        </div>
+
+        <button type="button" class="submit-button" onclick="calculateScore()">Submit</button>
+    </form>
+
+    <script>
+        function calculateScore() {
+            let score = 0;
+
+            // Iterate through each question and check the selected answer
+            for (let i = 1; i <= 10; i++) {
+                const selectedOption = document.querySelector(`input[name="q${i}"]:checked`);
+
+                // Check if an option is selected for each question
+                if (selectedOption) {
+                    const selectedValue = selectedOption.value;
+
+                    // Increment score based on correct answers
+                    if (i === 1 && selectedValue === "C") {
+                        score++;
+                    } else if (i === 2 && selectedValue === "B") {
+                        score++;
+                    } else if (i === 3 && selectedValue === "A") {
+                        score++;
+                    } else if (i === 4 && selectedValue === "A") {
+                        score++;
+                    } else if (i === 5 && selectedValue === "B") {
+                        score++;
+                    } else if (i === 6 && selectedValue === "C") {
+                        score++;
+                    } else if (i === 7 && selectedValue === "B") {
+                        score++;
+                    } else if (i === 8 && selectedValue === "A") {
+                        score++;
+                    } else if (i === 9 && selectedValue === "A") {
+                        score++;
+                    } else if (i === 10 && selectedValue === "A") {
+                        score++;
+                    }
+                }
+            }
+
+            // Redirect to the result page with the score
+            window.location.href = `result.html?score=${score}`;
+        }
+    </script>
+</body>
+</html>
