@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kid's Storybook Library</title>
+    <style>
+        /* Basic Reset and Body Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFFBCC;
+            color: #333;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        /* Header Section */
+        header {
+            background-color: #FFEE80;
+            padding: 20px;
+            font-size: 2em;
+            color: #E57A44;
+            font-weight: bold;
+        }
+        /* Main Content Area */
+        .main-content {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        /* Library Section */
+        .storybook-library {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .story-thumbnail {
+            background-color: #E0F7FA;
+            padding: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .story-thumbnail:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        /* Interactive Buttons */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #FFB74D;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #FF8A65;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>Welcome to the Kid's Storybook Library!</header>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <p>Choose a story to begin:</p>
+        
+        <!-- Storybook Library -->
+        <div class="storybook-library">
+            <div class="story-thumbnail" onclick="readStory('Story 1')">🐻 Story 1</div>
+            <div class="story-thumbnail" onclick="readStory('Story 2')">🐰 Story 2</div>
+            <div class="story-thumbnail" onclick="readStory('Story 3')">🐸 Story 3</div>
+            <div class="story-thumbnail" onclick="readStory('Story 4')">🦄 Story 4</div>
+        </div>
+
+        <!-- Read Aloud Button -->
+        <div class="button" onclick="startReading()">Read Aloud</div>
+    </div>
+
+    <script>
+        // Placeholder for read-aloud feature
+        let currentStory = "";
+
+        function readStory(storyTitle) {
+            currentStory = storyTitle;
+            alert("You selected: " + storyTitle);
+        }
+
+        function startReading() {
+            if (currentStory) {
+                let storyText = currentStory + " - Once upon a time, in a magical forest ..";
+                const speech = new SpeechSynthesisUtterance(storyText);
+                speech.lang = "en-US";
+                speech.rate = 0.9; // Adjust speed for young listeners
+                window.speechSynthesis.speak(speech);
+            } else {
+                alert("Please select a story first!");
+            }
+        }
+    </script>
+
+</body>
+</html>
