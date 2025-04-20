@@ -76,39 +76,60 @@
     <div class="main-content">
         <p>Choose a story to begin:</p>
         
-        <!-- Storybook Library -->
-        <div class="storybook-library">
-            <div class="story-thumbnail" onclick="readStory('Story 1')">🐻 Story 1</div>
-            <div class="story-thumbnail" onclick="readStory('Story 2')">🐰 Story 2</div>
-            <div class="story-thumbnail" onclick="readStory('Story 3')">🐸 Story 3</div>
-            <div class="story-thumbnail" onclick="readStory('Story 4')">🦄 Story 4</div>
-        </div>
+       <!-- Storybook Library -->
+    <div class="storybook-library">
+    <div class="story-thumbnail" onclick="readStory('Story 1')">🦁 Story 1: Lion & the Rabbit</div>
+    <div class="story-thumbnail" onclick="readStory('Story 2')">🦢 Story 2: Loyal Mongoose</div>
+    <div class="story-thumbnail" onclick="readStory('Story 3')">🐒 Story 3: Monkey & Crocodile</div>
+    <div class="story-thumbnail" onclick="readStory('Story 4')">🐭 Story 4: Mice & the Elephant</div>
+    <div class="story-thumbnail" onclick="readStory('Story 5')">🦊 Story 5: Jackal & the Drum</div>
+    <div class="story-thumbnail" onclick="readStory('Story 6')">🐢 Story 6: Talkative Turtle</div>
+    <div class="story-thumbnail" onclick="readStory('Story 7')">🪶 Story 7: Crows & the Snake</div>
+    <div class="story-thumbnail" onclick="readStory('Story 8')">🐦 Story 8: The Bird with Two Heads</div>
+    <div class="story-thumbnail" onclick="readStory('Story 9')">🦆 Story 9: Wise Old Goose</div>
+    <div class="story-thumbnail" onclick="readStory('Story 10')">🐫 Story 10: Camel & the Jackal</div>
+    </div>
 
         <!-- Read Aloud Button -->
         <div class="button" onclick="startReading()">Read Aloud</div>
     </div>
 
     <script>
-        // Placeholder for read-aloud feature
         let currentStory = "";
-
+    
+        const stories = {
+            "Story 1": "Once upon a time, a clever rabbit tricked a ferocious lion to save the forest animals.",
+            "Story 2": "A loyal mongoose protected a child, but the misunderstanding led to a tragic end.",
+            "Story 3": "A monkey outsmarted a crocodile who tried to betray his trust.",
+            "Story 4": "Tiny mice helped the mighty elephants and proved size doesn't matter.",
+            "Story 5": "A frightened jackal mistook a drum’s sound for danger and learned to investigate first.",
+            "Story 6": "A turtle couldn’t keep quiet and paid the price for being too talkative.",
+            "Story 7": "Two clever crows used wisdom to defeat a snake that troubled their nest.",
+            "Story 8": "A bird with two heads argued and forgot teamwork, leading to their downfall.",
+            "Story 9": "A wise goose warned his fellow birds but was ignored until danger struck.",
+            "Story 10": "A jackal manipulated a camel friend, but the camel turned the tables wisely."
+        };
+    
         function readStory(storyTitle) {
             currentStory = storyTitle;
+            document.querySelectorAll('.story-thumbnail').forEach(el => el.classList.remove('selected'));
+            event.currentTarget.classList.add('selected');
             alert("You selected: " + storyTitle);
         }
-
+    
         function startReading() {
             if (currentStory) {
-                let storyText = currentStory + " - Once upon a time, in a magical forest ..";
+                let storyText = stories[currentStory] || "Once upon a time...";
                 const speech = new SpeechSynthesisUtterance(storyText);
                 speech.lang = "en-US";
-                speech.rate = 0.9; // Adjust speed for young listeners
+                speech.rate = 0.9;
                 window.speechSynthesis.speak(speech);
             } else {
                 alert("Please select a story first!");
             }
         }
     </script>
+    
 
 </body>
 </html>
