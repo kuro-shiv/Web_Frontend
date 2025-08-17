@@ -1,6 +1,6 @@
 # 🌐 Web Development Projects by Shivam Kumar Dubey
 
-Welcome to my **Web Development** collection — a compilation of hands-on projects built with **HTML**, **CSS**, and **JavaScript**, hosted via **GitHub Pages**.
+Welcome to my **Web Development** collection — a growing compilation of hands-on projects built with **HTML**, **CSS**, and **JavaScript**, hosted via **GitHub Pages**.
 
 ### 🔗 Live Portfolio Showcase
 
@@ -11,7 +11,7 @@ Welcome to my **Web Development** collection — a compilation of hands-on proje
 
 ## 📁 Featured Projects
 
-Here are some of the key projects included or linked from this repository:
+Here are some of the key projects included or linked from this repository. More projects will be added as the collection expands!
 
 ### 1. [💼 AMRR TechSols - Internship Project](https://github.com/kuro-shiv/AMRR-TechSols)
 - **Description**: Task-based assignment for an internship involving item listing, modal-based detail views, and dynamic form handling.
@@ -46,6 +46,21 @@ Here are some of the key projects included or linked from this repository:
   - Calculator
   - Weather App (using OpenWeather API)
   - Portfolio Template
+
+---
+
+## 🆕 Upcoming & Future Projects
+
+Stay tuned for new additions! Planned and in-progress projects include:
+- **E-Commerce Platform**
+- **Resume Builder**
+- **Storybook Website**
+- **Quiz Website**
+- **Portfolio Enhancements**
+- **Blog Platform**
+- **Personal Finance Tracker**
+- **Recipe App**
+- ...and more exciting web projects coming soon!
 
 ---
 
