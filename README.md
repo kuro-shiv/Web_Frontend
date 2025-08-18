@@ -54,6 +54,16 @@ All projects are built using **HTML, CSS, JavaScript** (and sometimes backend su
 
 ---
 
+### 8. [📥 YouTube to PDF Tool](https://youtube-to-pdf-smart-frsher-sa.streamlit.app/)  
+- **Description**: Paste any YouTube video link and instantly convert the video content into PDF notes.  
+- **Features**:  
+  - Accepts YouTube video URLs  
+  - Extracts key points and summaries from the video  
+  - Generates downloadable PDF notes  
+- **Tech Stack**: Streamlit, Python  
+
+---
+
 ## 📜 JavaScript Mini Projects  
 
 A collection of **interactive JavaScript-based applications and tools**:
@@ -91,7 +101,13 @@ A collection of **interactive JavaScript-based applications and tools**:
 - 🎲 [Advice Generator App](https://kuro-shiv.github.io/Advice-app/) — Fetches random advice from an API and displays it in a styled card. *(HTML, CSS, JavaScript)*  
 - 📄 [Resume Builder](https://kuro-shiv.github.io/Smart-Fresher-Hub/Resume-builder/Resume-builder.html) *(part of Smart Fresher Hub)*  
 - 📝 [Cover Letter Generator](https://kuro-shiv.github.io/Smart-Fresher-Hub/Cover%20Letter/Cover-letter.html) *(part of Smart Fresher Hub)*  
-- 📥 [YouTube to PDF Tool](https://youtube-to-pdf-smart-frsher-sa.streamlit.app/) *(Streamlit App)*  
+- 📥 [YouTube to PDF Tool](https://youtube-to-pdf-smart-frsher-sa.streamlit.app/)  
+- **Description**: Paste any YouTube video link and instantly convert the video content into PDF notes.  
+- **Features**:  
+  - Accepts YouTube video URLs  
+  - Extracts key points and summaries from the video  
+  - Generates downloadable PDF notes  
+- **Tech Stack**: Streamlit, Python  
 
 ---
 
