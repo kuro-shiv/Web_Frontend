@@ -16,10 +16,38 @@
       }
       .w3-sidebar {
         width: 120px;
-        background: #222;
+        background: linear-gradient(135deg, #222, #444);
       }
       #main {
         margin-left: 120px;
+      }
+      .gradient-bg {
+        background: linear-gradient(135deg, #232526 0%, #414345 100%);
+      }
+      .highlight {
+        color: #00bcd4;
+        font-weight: bold;
+      }
+      .project-card {
+        background: #222;
+        border-radius: 10px;
+        padding: 18px;
+        margin-bottom: 18px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        transition: transform 0.2s;
+      }
+      .project-card:hover {
+        transform: translateY(-4px) scale(1.02);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.22);
+      }
+      .w3-button.w3-black {
+        background: linear-gradient(90deg, #00bcd4 0%, #232526 100%);
+        color: #fff;
+        border: none;
+      }
+      .w3-button.w3-black:hover {
+        background: linear-gradient(90deg, #232526 0%, #00bcd4 100%);
+        color: #fff;
       }
       @media only screen and (max-width: 600px) {
         #main {
@@ -28,13 +56,11 @@
       }
     </style>
   </head>
-  <body class="w3-black">
+  <body class="gradient-bg">
 
     <!-- Icon Bar (Sidebar - hidden on small screens) -->
     <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-      <!-- Avatar image in top left corner -->
-      <img src="" style="width:90%" alt="">
-
+      <img src="photo2.png" style="width:90%;border-radius:50%;margin-top:16px;" alt="Profile">
       <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-black">
         <i class="fa fa-home w3-xxlarge"></i>
         <p>HOME</p>
@@ -72,115 +98,100 @@
     <div class="w3-padding-large" id="main">
 
       <!-- Home Section -->
-      <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-        <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Shivam Kumar Dubey.</h1>
-        <p>Computer Science Engineering Student Specializing in Data Science</p>
-        <img src="photo2.png" alt="Profile" class="w3-image" width="40%" height="40%">
+      <header class="w3-container w3-padding-32 w3-center" id="home">
+        <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Shivam Kumar Dubey</h1>
+        <p class="highlight">Web Developer & Data Science Enthusiast</p>
+        <img src="photo2.png" alt="Profile" class="w3-image" width="180" style="border-radius:50%;box-shadow:0 4px 16px rgba(0,0,0,0.18);">
       </header>
 
       <!-- About Section -->
-      <div class="w3-content w3-justify w3-text-grey w3-pe.jpadding-64" id="about">
+      <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
         <h2 class="w3-text-light-grey">About Me</h2>
         <hr style="width:200px" class="w3-opacity">
         <p>
-        I’m Shivam Kumar Dubey, a passionate and detail-oriented Computer Science Engineering undergraduate (B.Tech CSE - Data Science, Class of 2026) at Shri Ramswaroop Memorial College of Engineering & Management. My interests lie in data science, software development, and automation testing. I’ve gained hands-on experience as a Manual & Automation Tester Intern at Laitkor Consultancy, where I used Selenium WebDriver (Python) for functional and regression testing and managed test scripts via GitHub. At Elate Recruitment, I also contributed to recruitment operations and social media branding, gaining insight into cross-functional collaboration in tech-driven environments.</p>
-
-        <p>My technical toolkit includes Python, SQL, HTML, CSS, JavaScript, Pandas, NumPy, Matplotlib, Excel, Selenium, GitHub, and Jupyter Notebook. I’m proficient with tools like VS Code and PyCharm and have completed multiple internships and certifications in data science and software development. Outside of tech, I’m actively involved in my college’s Drama Club, play Kabaddi, and have led various events as an organizer and sports head. These experiences sharpened my communication and leadership skills. I’m driven by curiosity and a desire to create real-world impact through technology, and I actively seek opportunities to apply my skills and grow further.</p>
-
+          Passionate about building impactful web applications and exploring data-driven solutions. Skilled in <span class="highlight">Python, SQL, HTML, CSS, JavaScript, Pandas, Selenium, GitHub</span> and more. I enjoy collaborating on creative projects, learning new technologies, and solving real-world problems through code.
+        </p>
+        <p>
+          Outside of tech, I love participating in creative clubs, organizing events, and engaging in sports. Always eager to connect, collaborate, and grow!
+        </p>
       </div>
 
       <!-- Projects Section -->
       <div class="w3-content w3-padding-64 w3-text-grey" id="projects">
         <h2 class="w3-text-light-grey">Projects</h2>
         <hr style="width:200px" class="w3-opacity">
-        <ul>
-            <li>
-                <a href="https://smart-fresher-sa.great-site.net/?i=1" target="_blank">
-                <strong>Smart Fresher SA</strong>
-                </a> – A web-based portal designed to support freshers with skill assessments and job readiness tools.
-            </li>
-            <li>
-                <a href="https://github.com/kuro-shiv/Python" target="_blank">
-                <strong>Python_Projects</strong>
-                </a> – A collection of Python scripts demonstrating logic building and automation skills.
-            </li>
-            <li>
-                <a href="https://github.com/kuro-shiv/Web_Frontend" target="_blank">
-                <strong>Web_Frontend</strong>
-                </a> – A compilation of web development projects using HTML, CSS, and JavaScript with responsive design.
-            </li>
-            <li>
-                <a href="https://github.com/kuro-shiv/GDG-solution-Challenge" target="_blank">
-                <strong>GDG Solution Challenge</strong>
-                </a> – A project for Google Developer Groups Challenge focused on real-world problem-solving.
-            </li>
-            <li>
-                <a href="https://github.com/kuro-shiv/project_DSA" target="_blank">
-                <strong>DSA_with_Python</strong>
-                </a> – Implementation of core data structures and algorithms using Python for coding practice and interviews.
-            </li>
-        </ul>
+        <div class="project-card">
+          <a href="https://smart-fresher-sa.great-site.net/?i=1" target="_blank" class="highlight">
+            <strong>Smart Fresher SA</strong>
+          </a>
+          <p>A web portal for skill assessments and job readiness tools for freshers.</p>
+        </div>
+        <div class="project-card">
+          <a href="https://github.com/kuro-shiv/Python" target="_blank" class="highlight">
+            <strong>Python Projects</strong>
+          </a>
+          <p>Logic building and automation scripts in Python.</p>
+        </div>
+        <div class="project-card">
+          <a href="https://github.com/kuro-shiv/Web_Frontend" target="_blank" class="highlight">
+            <strong>Web Frontend</strong>
+          </a>
+          <p>Responsive web development projects using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project-card">
+          <a href="https://github.com/kuro-shiv/GDG-solution-Challenge" target="_blank" class="highlight">
+            <strong>GDG Solution Challenge</strong>
+          </a>
+          <p>Real-world problem-solving for Google Developer Groups Challenge.</p>
+        </div>
+        <div class="project-card">
+          <a href="https://github.com/kuro-shiv/project_DSA" target="_blank" class="highlight">
+            <strong>DSA with Python</strong>
+          </a>
+          <p>Core data structures and algorithms implemented in Python.</p>
+        </div>
       </div>
 
       <!-- Resume Section -->
       <div class="w3-content w3-padding-64 w3-text-grey" id="resume">
         <h2 class="w3-text-light-grey">Resume</h2>
         <hr style="width:200px" class="w3-opacity">
-        <p>Download my full resume below:</p>
-        <a href="Shivam_KumarDubey_Resume.pdf" download class="w3-button w3-light-grey">
+        <p>Download my resume below:</p>
+        <a href="Shivam_KumarDubey_Resume.pdf" download class="w3-button w3-black">
           <i class="fa fa-download"></i> Download Resume
         </a>
       </div>
 
       <!-- Contact Section -->
       <div class="w3-content w3-padding-64 w3-text-grey" id="contact">
-        <h2 class="w3-text-light-grey">Contact Me</h2>
+        <h2 class="w3-text-light-grey">Contact</h2>
         <hr style="width:200px" class="w3-opacity">
         <div class="w3-section">
-          <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Lucknow, Uttar Pradesh, India</p>
-          <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> +91 8299142475</p>
-          <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> dubeysk2003@gmail.com</p>
+          <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Email: <span class="highlight">shivamku.dev@gmail.com</span></p>
         </div>
       </div>
 
     </div>
     <!-- Social Media Section -->
-<div class="w3-container w3-center w3-padding-32">
-  <h3 class="w3-text-light-grey">Connect With Me</h3>
-  <div class="w3-section">
-    <a href="https://www.linkedin.com/in/shivam-kumar-dubey-970a87248/" target="_blank" class="w3-button w3-black w3-margin">
-      <i class="fa fa-linkedin w3-xlarge"></i> LinkedIn
-    </a>
-    <a href="https://github.com/kuro-shiv" target="_blank" class="w3-button w3-black w3-margin">
-      <i class="fa fa-github w3-xlarge"></i> GitHub
-    </a>
-    <a href="https://www.instagram.com/ankit_san023/" target="_blank" class="w3-button w3-black w3-margin">
-      <i class="fa fa-instagram w3-xlarge"></i> Instagram
-    </a>
-    <a href="https://x.com/Shivam_twt023" target="_blank" class="w3-button w3-black w3-margin">
-      <i class="fa fa-twitter w3-xlarge"></i> Twitter
-    </a>
-    <br>
-    <a href="https://www.youtube.com/@kuro_ank023" target="_blank" class="w3-button w3-black w3-margin">
-        <i class="fa fa-youtube w3-margin-right"></i> YouTube
-    </a>
-    <a href="https://aigen023.blogspot.com/" target="_blank" class="w3-button w3-black w3-margin">
-      <i class="fa fa-pencil w3-xlarge"></i> Blog
-    </a>
-  </div>
-</div>
+    <div class="w3-container w3-center w3-padding-32">
+      <h3 class="w3-text-light-grey">Connect With Me</h3>
+      <div class="w3-section">
+        <a href="https://www.linkedin.com/in/shivam-kumar-dubey-0a87248/" target="_blank" class="w3-button w3-black w3-margin">
+          <i class="fa fa-linkedin w3-xlarge"></i> LinkedIn
+        </a>
+        <a href="https://github.com/kurohiv" target="_blank" class="w3-button w3-black w3-margin">
+          <i class="fa fa-github w3-xlarge"></i> GitHub
+        </a>
+        <a href="https://aigen023.blspot.com/" target="_blank" class="w3-button w3-black w3-margin">
+          <i class="fa fa-pencil w3-xlarge"></i> Blog
+        </a>
+      </div>
+    </div>
 
+    <!-- Footer Section -->
+    <footer class="w3-container w3-padding-32 w3-dark-grey w3-center">
+      <p class="w3-text-black">© 2024 Shivam Kumar Dubey. All rights reserved.</p>
+    </footer>
 
-
-<!-- Footer Section -->
-<footer class="w3-container w3-padding-32 w3-dark-grey w3-center">
- 
-
-  <!-- Copyright and Back to Top -->
-  <p class="w3-text-black">© 2024 Shivam Kumar Dubey. All rights reserved.</p>
-  
-</footer>
-
-    
   </body>
 </html>

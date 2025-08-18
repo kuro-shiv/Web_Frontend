@@ -1,84 +1,112 @@
-# 🌐 Web Development Projects by Shivam Kumar Dubey
+# 🌐 Web Development Projects
 
-Welcome to my **Web Development** collection — a growing compilation of hands-on projects built with **HTML**, **CSS**, and **JavaScript**, hosted via **GitHub Pages**.
-
-### 🔗 Live Portfolio Showcase
-
-📍 Access all the projects in one place:  
-👉 [View Live Site](https://kuro-shiv.github.io/Web_Devlopment/)
+Welcome to my **Web Development Portfolio Repository** 🚀  
+This repo contains a collection of my web projects — from interactive mini-apps to complete websites and career tools.  
+All projects are built using **HTML, CSS, JavaScript** (and sometimes backend support).
 
 ---
 
-## 📁 Featured Projects
+## 📌 Featured Projects
 
-Here are some of the key projects included or linked from this repository. More projects will be added as the collection expands!
-
-### 1. [💼 AMRR TechSols - Internship Project](https://github.com/kuro-shiv/AMRR-TechSols)
-- **Description**: Task-based assignment for an internship involving item listing, modal-based detail views, and dynamic form handling.
-- **Tech Stack**: HTML, CSS, JavaScript, Bootstrap
-- **Status**: Complete (2-page website)
+### 1. [📖 Storybook Website](https://kuro-shiv.github.io/Web_Devlopment/Story_Page/intro.html)  
+- **Description**: A simple storytelling website where users can read interactive stories in a clean layout.  
+- **Tech Stack**: HTML, CSS  
 
 ---
 
-### 2. [📜 JavaScript Mini Projects](https://github.com/kuro-shiv/Javascript_project)
-- **Description**: Collection of JavaScript-based utilities and UI widgets, including clocks, counters, and DOM experiments.
-- **Tech Stack**: HTML, CSS, JavaScript
-- **Examples**:
-  - Digital Clock
-  - Background Color Changer
-  - Counter App
+### 2. [❓ Quiz Website](https://kuro-shiv.github.io/Web_Devlopment/Quiz%20web-site/index.html)  
+- **Description**: Interactive quiz platform with multiple-choice questions and scoring.  
+- **Tech Stack**: HTML, CSS, JavaScript  
 
 ---
 
-### 3. [🎲 Advice Generator App](https://github.com/kuro-shiv/Advice-app)
-- **Description**: Fetches random advice using a public API and displays it on a stylish card UI.
-- **Tech Stack**: HTML, CSS (Flexbox), JavaScript (fetch API)
-- **Live Demo**: [Advice App Live](https://kuro-shiv.github.io/Advice-app/)
+### 3. [🎨 Portfolio Website](https://kuro-shiv.github.io/Web_Devlopment/Simple_portfolio_website/porfolio.html)  
+- **Description**: A simple and responsive personal portfolio website showcasing skills and projects.  
+- **Tech Stack**: HTML, CSS, JavaScript  
 
 ---
 
-### 4. [🧩 Web Development Repo (This Repo)](https://github.com/kuro-shiv/Web_Devlopment)
-- **Description**: Central hub of hosted frontend projects and experimentations.
-- **Live Demo**: [Web Development Showcase](https://kuro-shiv.github.io/Web_Devlopment/)
-- **Contents**:
-  - Landing Page
-  - To-Do List
-  - Calculator
-  - Weather App (using OpenWeather API)
-  - Portfolio Template
+### 4. [💰 Personal Finance Tracker](https://kuro-shiv.github.io/Web_Devlopment/Javascript_project-javascript/index.html)  
+- **Description**: Track income, expenses, and financial summaries with calculators and utilities.  
+- **Tech Stack**: HTML, CSS, JavaScript  
 
 ---
 
-## 🆕 Upcoming & Future Projects
-
-Stay tuned for new additions! Planned and in-progress projects include:
-- **E-Commerce Platform**
-- **Resume Builder**
-- **Storybook Website**
-- **Quiz Website**
-- **Portfolio Enhancements**
-- **Blog Platform**
-- **Personal Finance Tracker**
-- **Recipe App**
-- ...and more exciting web projects coming soon!
+### 5. [💡 Smart Fresher Hub](https://smart-fresher-sa.great-site.net/)  
+- **Description**: A platform designed for freshers to build resumes, generate cover letters, and access career tools.  
+- **Tech Stack**: HTML, CSS, JavaScript, PHP (Backend), InfinityFree Hosting  
+- **Features**:  
+  - Resume Builder  
+  - Cover Letter Generator  
+  - Career Resources  
 
 ---
 
-## 🚀 Technologies Used
-
-- **Frontend**: HTML5, CSS3, JavaScript
-- **UI Frameworks**: Bootstrap (in some projects)
-- **Version Control**: Git, GitHub
-- **Deployment**: GitHub Pages
+### 6. [🌍 GDG Solution Challenge Project](https://kuro-shiv.github.io/GDG-solution-Challenge/)  
+- **Description**: A project submission for the Google Developer Groups Solution Challenge.  
+- **Tech Stack**: HTML, CSS, JavaScript  
 
 ---
 
-## 📬 Connect with Me
-
-- 🔗 [GitHub Profile](https://github.com/kuro-shiv)
-- 🔗 [LinkedIn](https://www.linkedin.com/in/shivam-kumar-dubey-970a87248/)
-- ✉️ Email: `shivamku.dev@gmail.com`
+### 7. [👩‍🏫 Teacher’s Service Website](https://kuro-shiv.github.io/Web_Devlopment/website_for_teacher/index.html)  
+- **Description**: A service website template for teachers, showcasing their profile, services, and contact details.  
+- **Tech Stack**: HTML, CSS, JavaScript  
 
 ---
 
-> ⚠️ Note: This repository is actively maintained. More projects and features will be added as I continue exploring frontend development.
+## 📜 JavaScript Mini Projects  
+
+A collection of **interactive JavaScript-based applications and tools**:
+
+- **Digital Clock** — Displays the current time with live updates.
+- **Background Color Changer** — Changes the background color dynamically.
+- **Counter App** — Simple increment/decrement counter.
+
+### 🛠️ Tools & Utility Projects  
+
+- **Age Calculator** — Calculates exact age in years, months, and days from a given date of birth.  
+- **BMI Calculator** — Computes Body Mass Index with health categorization (Underweight, Healthy, Overweight, etc.).  
+- **Cash Calculator** — Breaks down entered cash amount into different denominations.  
+- **Dictionary Application** — Provides word definitions and pronunciation using API.  
+- **Digital Clock** — Real-time clock with hours, minutes, seconds.  
+- **Expense Tracker** — Manage daily expenses with income-expense summary.  
+- **FD Calculator** — Calculates maturity amount for fixed deposits based on principal, rate, and duration.  
+- **Loan Calculator** — Estimates monthly EMI and total repayment.  
+- **Mouse Wheel Zoom In/Out** — Enables zoom functionality using mouse wheel events.  
+- **Notes Taking App (Sticky Notes)** — Create, edit, and delete notes with persistent storage.  
+- **Random Password Generator** — Generates secure random passwords with customizable length.  
+- **Random Paragraph Generator** — Creates random paragraphs for testing and practice.  
+- **Stopwatch Timer** — Start, pause, and reset stopwatch functionality.  
+- **Text Animation** — Stylish text animations for headers and content.  
+- **Timer & Date Widget** — Displays live timer and current date.  
+- **Tip Calculator** — Calculates tips instantly based on entered bill and percentage.  
+- **To-Do List** — Add, mark complete, and remove tasks dynamically.  
+
+👉 [Explore Tools Collection](https://kuro-shiv.github.io/Web_Devlopment/Javascript_project-javascript/index.html)  
+
+---
+
+## 📂 Other Live Projects  
+
+- 🎲 [Advice Generator App](https://kuro-shiv.github.io/Advice-app/) — Fetches random advice from an API and displays it in a styled card. *(HTML, CSS, JavaScript)*  
+- 📄 [Resume Builder](https://kuro-shiv.github.io/Smart-Fresher-Hub/Resume-builder/Resume-builder.html) *(part of Smart Fresher Hub)*  
+- 📝 [Cover Letter Generator](https://kuro-shiv.github.io/Smart-Fresher-Hub/Cover%20Letter/Cover-letter.html) *(part of Smart Fresher Hub)*  
+- 📥 [YouTube to PDF Tool](https://youtube-to-pdf-smart-frsher-sa.streamlit.app/) *(Streamlit App)*  
+
+---
+
+## 🚀 Future Roadmap  
+
+Upcoming full-stack projects in progress:  
+
+- ⛅ **Weather App** — Real-time weather updates with geolocation.  
+- 📝 **Personal Blog** — Blogging platform with markdown support.  
+- 🛒 **E-Commerce Website** — Product listings, shopping cart, and payments.  
+- 🌐 **Social Media Platform** — Full-featured social app with authentication, posts, and chats.  
+
+---
+
+## 📬 Connect With Me  
+
+- [LinkedIn](https://www.linkedin.com/in/shivam-kumar-dubey-970a87248/)  
+- [GitHub](https://github.com/kuro-shiv)
